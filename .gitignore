@@ -1,0 +1,43 @@
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Xcode local state and build products
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+*.ipa
+*.dSYM/
+*.dSYM.zip
+*.xcarchive/
+
+# Swift Package Manager local state (keep Package.resolved when appropriate)
+.build/
+.swiftpm/
+
+# Credentials and signing exports
+.env
+.env.*
+!.env.example
+*.p12
+*.p8
+*.key
+*.mobileprovision
+*.provisionprofile
+
+# Android local state, for the later implementation
+.gradle/
+.kotlin/
+local.properties
+*.jks
+*.keystore
+.idea/
+
+# Editor temporary files
+*.swp
+*.swo
+*~
