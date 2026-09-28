@@ -2,7 +2,7 @@
 
 ## Current status
 
-Phase 0 Windows checkout and repository documentation are prepared. App implementation has not started.
+Phase 0 Windows checkout and repository documentation are prepared. The initial setup contribution was successfully pushed to work/windows. App implementation has not started.
 
 ## Confirmed
 
@@ -26,8 +26,8 @@ Phase 0 Windows checkout and repository documentation are prepared. App implemen
 
 ## Next work session
 
-Verify publication of the setup contribution and work/macos branch. Then prepare the separate Mac checkout using docs/setup-macos.md. Confirm Mac/Xcode/iPhone compatibility and Apple account capabilities, initialize the iOS app, and install it on the phone. Demonstrate branch synchronization in both directions and record the tested commit.
+Prepare the separate Mac checkout using docs/setup-macos.md. The Windows setup workflow publishes work/macos from the same setup history; confirm that branch is visible when cloning. Confirm Mac/Xcode/iPhone compatibility and Apple account capabilities, initialize the iOS app, and install it on the phone. Demonstrate branch synchronization in both directions and record the tested commit.
 
 ## Validation so far
 
-Repository inspection and planning/source review only. No app build, NFC scan, entitlement grant, or device blocking test has been performed. The Mac's compatibility and Apple account status remain unverified.
+Windows clone and initial push succeeded. Setup files passed Git whitespace checks. No app build, NFC scan, entitlement grant, or device blocking test has been performed. The Mac's compatibility and Apple account status remain unverified.

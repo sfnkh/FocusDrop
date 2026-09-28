@@ -93,7 +93,7 @@ Authorization loss must be visible as inactive/degraded protection. A UI boolean
 
 ### Phase 0  Windows and Mac setup with GitHub  One or more setup sessions
 
-The chosen project repository is [sfnkh/FocusDrop](https://github.com/sfnkh/FocusDrop). Use FocusDrop as the project name. Repository contents, visibility, and authenticated write access still need verification; an unsuccessful public fetch does not establish whether it is private or empty.
+The chosen project repository is [sfnkh/FocusDrop](https://github.com/sfnkh/FocusDrop). Use FocusDrop as the project name. The Windows checkout is established and an initial setup contribution has been pushed successfully. The repository started with a README on main; its history is preserved. See PROGRESS.md for the current handoff status.
 
 Phase 0 sequence:
 
